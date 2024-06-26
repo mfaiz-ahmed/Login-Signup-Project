@@ -17,7 +17,7 @@ font-weight: 400;}
 li:hover{color: #72aec8;
 cursor: pointer;}
 
-.services{display: flex;
+#services{display: flex;
   gap: 2.5rem;
 margin-top: 5rem;}
 
@@ -30,3 +30,57 @@ font-size: 2rem;}
 margin-left: 3rem;
 margin-top: 1rem;
 color: #AEAEAE;}
+
+
+.box{width: 25rem;
+  height: 100%;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+  
+  
+  .heading{text-align: center;
+  margin-top: 7rem;
+margin-bottom: 5rem;
+font-size: 4rem;
+font-weight: 700;}
+
+
+
+.bg-img{background-image: url(./Components/Assets/background-image.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height:100vw;}
+
+
+#img-text{
+  margin: 0 0 0 15.4rem;
+  padding: 20rem 0;
+  color: black;
+}
+
+
+#sale-text{
+  margin: 0 0 0.8rem;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+
+#newyear-text{
+  font-size: 6.3rem;
+  padding: 0 0 4.8rem;
+  margin: 0 0 0.8rem;
+  font-weight: 800;
+}
+
+
+
+#btn{background-color: #212529;
+color: white;
+font-weight: 300;
+padding: 1.2rem 4.3rem;
+font-size: 1.5rem;
+border: 0;}
