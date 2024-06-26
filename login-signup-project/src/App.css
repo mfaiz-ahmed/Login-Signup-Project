@@ -12,10 +12,14 @@ ul{list-style: none;
 font-weight: 400;}
 
 
+.nav-links{color: black;
+cursor: pointer;
+text-decoration: none;
+font-weight: 500;}
 
 
-li:hover{color: #72aec8;
-cursor: pointer;}
+.nav-links:hover{color: #72aec8;}
+
 
 #services{display: flex;
   gap: 2.5rem;
@@ -47,40 +51,4 @@ font-size: 4rem;
 font-weight: 700;}
 
 
-
-.bg-img{background-image: url(./Components/Assets/background-image.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-min-height:100vw;}
-
-
-#img-text{
-  margin: 0 0 0 15.4rem;
-  padding: 20rem 0;
-  color: black;
-}
-
-
-#sale-text{
-  margin: 0 0 0.8rem;
-  font-size: 2.6rem;
-  font-weight: 700;
-}
-
-
-#newyear-text{
-  font-size: 6.3rem;
-  padding: 0 0 4.8rem;
-  margin: 0 0 0.8rem;
-  font-weight: 800;
-}
-
-
-
-#btn{background-color: #212529;
-color: white;
-font-weight: 300;
-padding: 1.2rem 4.3rem;
-font-size: 1.5rem;
-border: 0;}
+    

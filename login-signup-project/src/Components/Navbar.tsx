@@ -10,13 +10,13 @@ export default function Navbar() {
         <img width={'100%'} src={mainLogo} alt="Logo" />
         </div>    
             <ul className='d-flex gap-5'>
-                <li><a className='text-black text-decoration-none' href="#">HOME</a></li>
-                <li><a className='text-black text-decoration-none' href="#services">SERVICES</a></li>
-                <li><a className='text-black text-decoration-none' href="#products">PRODUCTS</a></li>
-                <li><a className='text-black text-decoration-none' href="#">SALE</a></li>
-                <li><a className='text-black text-decoration-none' href="#">BLOG</a></li>
-                <li><a className='text-black text-decoration-none' href="#">SIGNUP</a></li> 
-                <li><a className='text-black text-decoration-none' href="#">LOGIN</a></li>
+                <li><a className='nav-links' href="#">HOME</a></li>
+                <li><a className='nav-links' href="#services">SERVICES</a></li>
+                <li><a className='nav-links' href="#products">PRODUCTS</a></li>
+                <li><a className='nav-links' href="#">SALE</a></li>
+                <li><a className='nav-links' href="#">BLOG</a></li>
+                <li><a className='nav-links' href="#">SIGNUP</a></li> 
+                <li><a className='nav-links' href="#">LOGIN</a></li>
             </ul>
     </nav> 
     </>
