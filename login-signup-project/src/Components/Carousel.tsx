@@ -7,7 +7,7 @@ import Carousel5 from './Assets/Carousel-5.png'
 
 export default function Carousel() {
   return (
-    <>
+    <div className='mt-5 pt-5'>
     <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
@@ -35,6 +35,6 @@ export default function Carousel() {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-       </>
+       </div>
   )
 }

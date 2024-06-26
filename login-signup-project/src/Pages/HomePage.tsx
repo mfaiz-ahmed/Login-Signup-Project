@@ -4,6 +4,7 @@ import Carousel from '../Components/Carousel'
 import Services from '../Components/Services'
 import Products from '../Components/Products'
 import SalePart from '../Components/SalePart'
+import Blog from '../Components/Blog'
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Services/>
       <Products/>
       <SalePart/>
+      <Blog/>
     </div>
   )
 }
