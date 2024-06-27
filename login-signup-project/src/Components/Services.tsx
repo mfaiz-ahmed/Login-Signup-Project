@@ -4,7 +4,7 @@ import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 export default function Services() {
   return (
-    <div id='services' className='contaziner'>
+    <div id='services' className='container'>
         <div>
         <h3><i className="fa-solid fa-cart-shopping icons me-3"></i>  FREE DELIVERY</h3>
         <p className='service-text'>Enjoy free delivery on every order, no minimum required!</p>
