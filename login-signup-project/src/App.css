@@ -107,3 +107,48 @@ transition: all 0.3s;}
 .insta-img:hover{
   filter: opacity(100%);
 }
+
+
+
+.logos{
+  font-size: 2.6rem;
+  margin-top: 2rem;
+  margin-right: 1.6rem;
+  color: #AEAEAE;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+
+.logos:hover{color: #72aec8;}
+
+
+
+.basis{
+  flex-basis: 25%;
+}
+
+
+.hover{color: black;
+cursor: pointer;
+transition: all 0.3s;}
+
+.hover:hover{color: #72aec8;}
+
+
+.color{color: #AEAEAE;}
+
+
+
+
+
+.logos-2{
+  color: #AEAEAE;
+  font-size: 3.6rem;
+  margin: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+
+.logos-2:hover{color: #72aec8;}
