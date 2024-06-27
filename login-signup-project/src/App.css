@@ -70,13 +70,19 @@ font-weight: 700;}
 font-weight: 700;}
     
 
-.button{padding: 1rem 2rem;
-font-size: 2rem;
+.button{padding: 1rem 3rem;
+font-size: 1.6rem;
 border: 0;
 background-color: #212529;
-color: white;}
+color: white;
+transition: all 0.3s;}
 
 
+.button:hover{
+  background-color: white;
+  color: #212529;
+  border: 0.1rem solid #212529;
+}
 
 
 .post-img{
@@ -85,7 +91,19 @@ color: white;}
 }
 
 
-
 .caption-box{
   padding: 1.6rem;
+}
+
+
+.insta-img{
+  width: 20rem;
+  height: 24rem;
+  cursor: pointer;
+  filter:opacity(50%);
+  transition: all 0.3s;
+}
+
+.insta-img:hover{
+  filter: opacity(100%);
 }
