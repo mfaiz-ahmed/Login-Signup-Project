@@ -8,6 +8,9 @@ export default function Footer() {
       <div>
         <img src={MainLogo} alt="Logo" />
       </div>
+      <div>
+        
+      </div>
     </div>
     </>
   )
