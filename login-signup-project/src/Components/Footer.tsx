@@ -18,7 +18,7 @@ export default function Footer() {
 </div>
       </div>
       <div className='basis'>
-        <h1 className='ms-4'>QUICK LINKS </h1>
+        <h2 className='ms-4'>QUICK LINKS </h2>
         <ul className='mt-5'>
                 <li className='fs-3'><a className='nav-links' href="#">HOME</a></li>
                 <li className='mt-4 fs-3'><a className='nav-links' href="#services">SERVICES</a></li>
@@ -28,7 +28,7 @@ export default function Footer() {
             </ul>
       </div>
       <div className='basis'>
-        <h1 className='ms-4'>HELP & INFO HELP</h1>
+        <h2 className='ms-4'>HELP & INFO HELP</h2>
         <ul className='mt-5'>
             <li className='fs-3 hover'>TRACK YOUR ORDER</li>
             <li className='mt-4 fs-3 hover'>RETURN POLICY</li>
@@ -38,7 +38,7 @@ export default function Footer() {
             </ul>
       </div>
     <div>
-      <h1>CONTACT US</h1>
+      <h2>CONTACT US</h2>
       <h3 className='mt-5 color'>Do you have any queries or suggestions?</h3>
       <h2 className='mt-3 hover'><i className="fa-solid fa-envelope"></i> yourinfo@gmail.com</h2>
       <h3 className='mt-5 color'>If you need support? Just give us a call.</h3>

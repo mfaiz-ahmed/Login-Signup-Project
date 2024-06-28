@@ -152,3 +152,43 @@ transition: all 0.3s;}
 
 
 .logos-2:hover{color: #72aec8;}
+
+
+
+
+
+
+.input{padding: 0.5rem 1rem;
+margin-top: 5rem;
+font-size: 1.6rem;
+outline: none;
+width: 30%;
+border-bottom: 0.1rem solid black;
+border-top: 0;
+border-right: 0;
+border-left: 0;
+}
+
+.input:focus{border-bottom: 0.2rem solid #72aec8;}
+
+
+.login-box{display: flex;
+flex-flow: column;
+align-items: center;
+margin-bottom: 30rem;
+margin-top: 30rem;}
+
+
+
+.button2{padding: 1rem 3rem;
+  font-size: 1.6rem;
+  border: 0;
+  background-color: #212529;
+  color: white;
+  width: 30%;
+  margin-top: 5rem;
+  transition: all 0.3s;}
+
+.button2:hover{background-color: #72aec8;}
+
+
