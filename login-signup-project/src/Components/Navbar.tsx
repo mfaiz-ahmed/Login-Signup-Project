@@ -17,6 +17,7 @@ export default function Navbar() {
                 <li><a className='nav-links' href="#blog">BLOG</a></li>
                 <li><Link className='nav-links' to={'/SignupPage'}>SIGNUP</Link></li> 
                 <li><Link className='nav-links' to={'/LoginPage'}>LOGIN</Link></li>
+                <li><Link className='nav-links' to={'/PostPage'}>POST</Link></li>
             </ul>
     </nav> 
     </>

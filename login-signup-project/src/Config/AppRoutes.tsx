@@ -3,6 +3,7 @@ import {BrowserRouter , Routes , Route} from 'react-router-dom'
 import LoginPage from '../Pages/LoginPage'
 import HomePage from '../Pages/HomePage'
 import SignupPage from '../Pages/SignupPage'
+import PostPage from '../Pages/PostPage'
 
 export default function AppRoutes() {
   return (
@@ -11,6 +12,7 @@ export default function AppRoutes() {
       <Route path='*' element={<HomePage/>}/>
       <Route path='loginPage' element={<LoginPage/>}/>
       <Route path='SignupPage' element={<SignupPage/>}/>
+      <Route path='PostPage' element={<PostPage/>}/>
     </Routes>
     </BrowserRouter>
   )

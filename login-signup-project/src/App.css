@@ -199,4 +199,11 @@ margin-top: 30rem;}
   margin-top: 15rem;}
   
 
+.post-box{display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 15rem;
+  margin-top: 10rem;}
+  
+
 
