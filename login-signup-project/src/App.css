@@ -192,3 +192,11 @@ margin-top: 30rem;}
 .button2:hover{background-color: #72aec8;}
 
 
+.signup-box{display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 15rem;
+  margin-top: 15rem;}
+  
+
+
