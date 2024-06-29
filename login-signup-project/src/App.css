@@ -109,10 +109,12 @@ transition: all 0.3s;}
   cursor: pointer;
   filter:opacity(50%);
   transition: all 0.3s;
+  border-radius: 1rem;
 }
 
 .insta-img:hover{
   filter: opacity(100%);
+  transform: scale(1.1);
 }
 
 
