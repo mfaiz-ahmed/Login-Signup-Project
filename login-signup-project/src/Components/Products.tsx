@@ -2,6 +2,7 @@ import React from 'react'
 
 
 
+
 export default function Products() {
     const products = [
         {
@@ -76,7 +77,7 @@ export default function Products() {
         },
         {
             id:11,
-            image: './Assets/Product-9.webp',
+            image: './Assets/Product-11.webp',
             brand: 'HP',
             model: 'RGB Keyboard',
             price: 4300
@@ -89,7 +90,6 @@ export default function Products() {
             price: 2900 
         },
     ]
-
 
 
   return (
