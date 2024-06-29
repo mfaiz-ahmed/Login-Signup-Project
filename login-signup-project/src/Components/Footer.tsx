@@ -8,7 +8,7 @@ export default function Footer() {
     <div className='mt-5 pt-5 ms-5 d-flex'>
       <div className='basis'>
         <img src={MainLogo} alt="Logo" />
-        <h2 className='mt-5'>© 2024 MiniStore. Your destination for unique, quality finds.</h2>
+        <h3 className='mt-5'>© 2024 MiniStore. Your destination for unique, quality finds.</h3>
 <div className='d-flex mt-4'>
     <p><i className="fa-brands fa-facebook-f logos"></i></p>
     <p><i className="fa-brands fa-instagram logos"></i></p>
@@ -18,27 +18,27 @@ export default function Footer() {
 </div>
       </div>
       <div className='basis'>
-        <h2 className='ms-4'>QUICK LINKS </h2>
+        <h3 className='ms-4'>QUICK LINKS </h3>
         <ul className='mt-5'>
-                <li className='fs-3'><a className='nav-links' href="#">HOME</a></li>
-                <li className='mt-4 fs-3'><a className='nav-links' href="#services">SERVICES</a></li>
-                <li className='mt-4 fs-3'><a className='nav-links' href="#products">PRODUCTS</a></li>
-                <li className='mt-4 fs-3'><a className='nav-links' href="#sale">SALE</a></li>
-                <li className='mt-4 fs-3'><a className='nav-links' href="#blog">BLOG</a></li>
+                <li className='fs-4'><a className='nav-links' href="#">HOME</a></li>
+                <li className='mt-4 fs-4'><a className='nav-links' href="#services">SERVICES</a></li>
+                <li className='mt-4 fs-4'><a className='nav-links' href="#products">PRODUCTS</a></li>
+                <li className='mt-4 fs-4'><a className='nav-links' href="#sale">SALE</a></li>
+                <li className='mt-4 fs-4'><a className='nav-links' href="#blog">BLOG</a></li>
             </ul>
       </div>
       <div className='basis'>
-        <h2 className='ms-4'>HELP & INFO HELP</h2>
+        <h3 className='ms-4'>HELP & INFO HELP</h3>
         <ul className='mt-5'>
-            <li className='fs-3 hover'>TRACK YOUR ORDER</li>
-            <li className='mt-4 fs-3 hover'>RETURN POLICY</li>
-            <li className='mt-4 fs-3 hover'>SHIPPING + DELIVERY</li>
-            <li className='mt-4 fs-3 hover'>CONTACT US</li>
-            <li className='mt-4 fs-3 hover'>FAQS</li>
+            <li className='fs-4 hover'>TRACK YOUR ORDER</li>
+            <li className='mt-4 fs-4 hover'>RETURN POLICY</li>
+            <li className='mt-4 fs-4 hover'>SHIPPING + DELIVERY</li>
+            <li className='mt-4 fs-4 hover'>CONTACT US</li>
+            <li className='mt-4 fs-4 hover'>FAQS</li>
             </ul>
       </div>
     <div>
-      <h2>CONTACT US</h2>
+      <h3>CONTACT US</h3>
       <h3 className='mt-5 color'>Do you have any queries or suggestions?</h3>
       <h2 className='mt-3 hover'><i className="fa-solid fa-envelope"></i> yourinfo@gmail.com</h2>
       <h3 className='mt-5 color'>If you need support? Just give us a call.</h3>
