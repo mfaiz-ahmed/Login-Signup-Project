@@ -54,7 +54,14 @@ color: #AEAEAE;}
   font-size: 1.6rem;
   line-height: 3rem;
   padding: 1.5rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+cursor: pointer;
+transition: all 0.3s;}
+
+.box:hover{
+  transform: scale(1.1);
+}
   
   
   .heading{text-align: center;
