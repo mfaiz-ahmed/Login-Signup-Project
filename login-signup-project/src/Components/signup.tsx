@@ -1,17 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { SignUpUser } from '../Config/Firebase/FirebaseMethods'
 
-export default function signup() {
+export default function Signup() {
+  
+  const [email , setEmail] = useState("")
+  const [password , setPassword] = useState("")
+  
+  const signUpFunction = (e:any)=>{
+    e.preventDefault()
+    console.log(email , password);
+    SignUpUser(email , password)
+    
+  }
+
+
   return (
     <>
-    <form className='container signup-box'>
-      <h1>SIGNUP</h1>
+    <form onSubmit={signUpFunction} className='container signup-box'>
+      <h1 className='heading'>SIGNUP</h1>
         <input className='input' type="text" placeholder='Full Name . . .' />
-        <input className='input' type="email" placeholder='Email . . .' />
+        <input onChange={(e)=>{ 
+          setEmail(e.target.value)
+        }} className='input'  value={email} type="email" placeholder='Email . . .' />
         <input className='input' type="number" placeholder='Phone Number . . .' />
         <input className='input' type="date" placeholder='Date Of Birth . . .' />
-        <input className='input' type="password" placeholder='Password . . .' />
-        <input className='input' type="password" placeholder='Confirm Password . . .' />
-        <button className='button2'>SIGNUP</button>
+        <input onChange={(e)=>{
+          setPassword(e.target.value)}
+        } className='input' value={password} type="password" placeholder='Password . . .' />
+        <button type='submit' className='button2'>SIGNUP</button>
      </form> 
     </>
   )
