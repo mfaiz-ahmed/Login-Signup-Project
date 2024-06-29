@@ -7,84 +7,84 @@ export default function Products() {
     const products = [
         {
             id:1,
-            image: './Assets/Product-1.webp',
+            image: './ProductImages/Product-1.webp',
             brand: 'Apple',
             model: 'Iphone 15 Pro Max',
             price: 525000
         },
         {
             id:2,
-            image: './Assets/Product-2.webp',
+            image: './ProductImages/Product-2.webp',
             brand: 'Sony',
             model: 'Playstation 4 Slim',
             price: 61500
         },
         {
             id:3,
-            image: './Assets/Product-3.webp',
+            image: './ProductImages/Product-3.webp',
             brand: 'Samsung',
             model: '43 inch LED Smart TV',
             price: 136900
         },
         {
             id:4,
-            image: './Assets/Product-4.png',
+            image: './ProductImages/Product-4.png',
             brand: 'Zero Lifestyle',
             model: 'Ignite Smart Watch',
             price: 7000
         },
         {
             id:5,
-            image: './Assets/Product-5.webp',
+            image: './ProductImages/Product-5.webp',
             brand: 'Lenovo',
             model: 'Livepods XT88',
             price: 3000
         },
         {
             id:6,
-            image: './Assets/Product-6.webp',
+            image: './ProductImages/Product-6.webp',
             brand: 'Samsung Galaxy',
             model: 'A15',
             price: 49500
         },
         {
             id:7,
-            image: './Assets/Product-7.webp',
+            image: './ProductImages/Product-7.webp',
             brand: 'Sony',
             model: 'PS4 Controller',
             price: 3700
         },
         {
             id:8,
-            image: './Assets/Product-8.webp',
+            image: './ProductImages/Product-8.webp',
             brand: 'HP',
             model: 'Chromebook G8',
             price: 10700
         },
         {
             id:9,
-            image: './Assets/Product-9.webp',
+            image: './ProductImages/Product-9.webp',
             brand: 'Asus',
             model: '24" LED Monitor',
             price: 17000
         },
         {
             id:10,
-            image: './Assets/Product-10.webp',
+            image: './ProductImages/Product-10.webp',
             brand: 'Lenovo',
             model: 'Wireless Headphone',
             price: 4400
         },
         {
             id:11,
-            image: './Assets/Product-11.webp',
+            image: './ProductImages/Product-11.webp',
             brand: 'HP',
             model: 'RGB Keyboard',
             price: 4300
         },
         {
             id:12,
-            image: './Assets/Product-12.webp',
+            image: './ProductImages/Product-12.webp',
             brand: 'Samsung',
             model: 'Galaxy Buds 2',
             price: 2900 
