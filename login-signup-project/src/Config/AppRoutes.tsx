@@ -4,7 +4,8 @@ import LoginPage from '../Pages/LoginPage'
 import HomePage from '../Pages/HomePage'
 import SignupPage from '../Pages/SignupPage'
 import PostPage from '../Pages/PostPage'
-import Todo from '../Pages/Todo'
+import Products from '../Components/Products'
+
 
 export default function AppRoutes() {
   return (
@@ -14,7 +15,7 @@ export default function AppRoutes() {
       <Route path='loginPage' element={<LoginPage/>}/>
       <Route path='SignupPage' element={<SignupPage/>}/>
       <Route path='PostPage' element={<PostPage/>}/>
-      <Route path='TodoPage' element={<Todo/>}/>
+      <Route path='productsPage' element={<Products/>}/>
     </Routes>
     </BrowserRouter>
   )

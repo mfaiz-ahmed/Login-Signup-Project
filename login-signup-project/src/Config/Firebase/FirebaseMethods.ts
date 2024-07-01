@@ -2,13 +2,15 @@ import {createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword} fro
 import app from './FirebaseConfig'
 import Swal from 'sweetalert2'
 import 'animate.css';
-import {getFirestore , doc, setDoc, collection} from 'firebase/firestore'
+import {getFirestore , collection, addDoc} from 'firebase/firestore'
+
 
 
 
 
 const auth = getAuth(app)
 const db = getFirestore(app)
+
 
 
 
@@ -73,7 +75,7 @@ export const loginUser = (email:string , password:string)=>{
             imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9L3VNHLIKDobzfP6_1FVe09UAU71t929y4UqT-pvKSD2U0B44iDvCr8FQjvaV2N4PEXs&usqp=CAU",
             imageHeight: 200,
             imageAlt: "Tick Image",
-            title: "Welcome back! You have successfully logged in.",
+            title: `Welcome back ${email} ! You have successfully logged in.`,
             showClass: {
               popup: `
                 animate__animated
@@ -117,11 +119,16 @@ export const loginUser = (email:string , password:string)=>{
 
 
 
-export const sendData = ()=>{
-  const dc = doc(db , 'todos' , '2')
+export const sendData = (model:any)=>{
 const docRef = collection(db , 'todos')
-  setDoc(dc , {
+  addDoc(docRef , {
     title:'Todos',
-    description:'Second Todo'
+    Name:model.Name,
+    Brand:model.Brand,
+    Model:model.Model,
+    Category:model.Category,
+    Condition:model.Condition,
+    Description:model.Description,
   })
 }
+

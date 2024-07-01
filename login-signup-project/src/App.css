@@ -185,7 +185,7 @@ border-left: 0;
 flex-flow: column;
 align-items: center;
 margin-bottom: 30rem;
-margin-top: 30rem;}
+margin-top: 15rem;}
 
 
 
@@ -217,9 +217,10 @@ margin-top: 30rem;}
 
 
 
-  .forget{color: #72aec8;
-  padding-top: 3rem;
-cursor: pointer;}
+  #forget{padding-top: 3rem;
+    font-size: 1.6rem;
+}
 
 
-.forget:hover{color: #096c97;}
+
+#signup{margin-top: 2rem;}
