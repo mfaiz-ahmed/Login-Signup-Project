@@ -2,11 +2,13 @@ import {createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword} fro
 import app from './FirebaseConfig'
 import Swal from 'sweetalert2'
 import 'animate.css';
+import {getFirestore , doc, setDoc, collection} from 'firebase/firestore'
 
 
 
 
 const auth = getAuth(app)
+const db = getFirestore(app)
 
 
 
@@ -111,4 +113,15 @@ export const loginUser = (email:string , password:string)=>{
             }
           });           
     })
+}
+
+
+
+export const sendData = ()=>{
+  const dc = doc(db , 'todos' , '2')
+const docRef = collection(db , 'todos')
+  setDoc(dc , {
+    title:'Todos',
+    description:'Second Todo'
+  })
 }

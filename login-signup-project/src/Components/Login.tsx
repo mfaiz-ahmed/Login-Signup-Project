@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { loginUser } from '../Config/Firebase/FirebaseMethods'
 
+
 export default function Login() {
 
   const [email , setEmail] = useState('')
@@ -9,7 +10,12 @@ export default function Login() {
   const Login = (e:any)=>{
     e.preventDefault()
     loginUser(email , password)
+
   }
+
+
+  
+
   return (
     <>
      <form onSubmit={Login} className='container login-box'>\
@@ -21,6 +27,7 @@ export default function Login() {
         <input onChange={(e)=>{
           setPassword(e.target.value)
         }} className='input' type="password" placeholder='Password . . .' />
+        <h3 className='forget'>Forget Password?</h3>
         <button type='submit' className='button2'>LOGIN</button>
      </form> 
     </>

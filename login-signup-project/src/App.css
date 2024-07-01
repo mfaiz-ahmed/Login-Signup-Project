@@ -216,3 +216,10 @@ margin-top: 30rem;}
   
 
 
+
+  .forget{color: #72aec8;
+  padding-top: 3rem;
+cursor: pointer;}
+
+
+.forget:hover{color: #096c97;}
