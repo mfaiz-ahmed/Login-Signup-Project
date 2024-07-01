@@ -7,34 +7,32 @@ import {getFirestore , collection, addDoc} from 'firebase/firestore'
 
 
 
-
 const auth = getAuth(app)
 const db = getFirestore(app)
-
 
 
 
 export const SignUpUser = (email:string , password:string)=>{
     createUserWithEmailAndPassword(auth , email , password)
     .then(res=>{
-        console.log(res , "Success");
-        Swal.fire({
+      console.log(res , "Success");
+      Swal.fire({
             imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9L3VNHLIKDobzfP6_1FVe09UAU71t929y4UqT-pvKSD2U0B44iDvCr8FQjvaV2N4PEXs&usqp=CAU",
             imageHeight: 200,
             imageAlt: "Tick Image",
             title: "Signup Successfull!",
             showClass: {
               popup: `
-                animate__animated
-                animate__backInUp
-                animate__faster
+              animate__animated
+              animate__backInUp
+              animate__faster
               `
             },
             hideClass: {
               popup: `
-                animate__animated
-                animate__backOutDown
-                animate__faster
+              animate__animated
+              animate__backOutDown
+              animate__faster
               `
             }
           });
@@ -116,6 +114,7 @@ export const loginUser = (email:string , password:string)=>{
           });           
     })
 }
+
 
 
 

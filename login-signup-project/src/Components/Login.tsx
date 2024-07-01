@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { loginUser} from '../Config/Firebase/FirebaseMethods'
 import { Link } from 'react-router-dom'
 
@@ -10,7 +10,6 @@ export default function Login() {
   const Login = (e:any)=>{
     e.preventDefault()
     loginUser(email , password)
-
   }
 
 
@@ -18,7 +17,7 @@ export default function Login() {
 
   return (
     <>
-     <form onSubmit={Login} className='container login-box'>\
+     <form onSubmit={Login} className='container login-box'>  
       <h1 className='heading'>SIGN IN</h1>
         <input className='input' type="text" placeholder='Full Name . . .' />
         <input onChange={(e)=>{

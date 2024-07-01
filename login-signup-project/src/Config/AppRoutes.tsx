@@ -11,8 +11,8 @@ export default function AppRoutes() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path='*' element={<HomePage/>}/>
-      <Route path='loginPage' element={<LoginPage/>}/>
+      <Route path='HomePage' element={<HomePage/>}/>
+      <Route path='*' element={<LoginPage/>}/>
       <Route path='SignupPage' element={<SignupPage/>}/>
       <Route path='PostPage' element={<PostPage/>}/>
       <Route path='productsPage' element={<Products/>}/>
